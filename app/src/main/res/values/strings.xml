@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GradientBackground</string>
+    <string name="title_sample1">Sample 1</string>
+    <string name="title_sample2">Sample 2</string>
+    <string name="title_sample3">Sample 3</string>
+</resources>
