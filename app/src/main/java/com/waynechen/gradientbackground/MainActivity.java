@@ -26,17 +26,17 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.navigation_sample1:
 
                 ((ConstraintLayout) findViewById(R.id.container))
-                        .setBackground(getResources().getDrawable(R.drawable.background_gradient_0, null));
+                        .setBackgroundResource(R.drawable.background_gradient_0);
                 return true;
             case R.id.navigation_sample2:
 
                 ((ConstraintLayout) findViewById(R.id.container))
-                        .setBackground(getResources().getDrawable(R.drawable.background_gradient_45, null));
+                        .setBackgroundResource(R.drawable.background_gradient_45);
                 return true;
             case R.id.navigation_sample3:
 
                 ((ConstraintLayout) findViewById(R.id.container))
-                        .setBackground(getResources().getDrawable(R.drawable.background_gradient_3c, null));
+                        .setBackgroundResource(R.drawable.background_gradient_3c);
                 return true;
         }
         return false;
